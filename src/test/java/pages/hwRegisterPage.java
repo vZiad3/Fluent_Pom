@@ -39,10 +39,10 @@ public class hwRegisterPage {
         ldriver.findElement(passwordConfirmField).sendKeys(passCheck);
         return this;
     }
-    public hwRegisterPage  agreeAndSubmit(){
+    public hwSuccessPage agreeAndSubmit(){
         ldriver.findElement(agreeField).click();
         ldriver.findElement(submitButton).click();
-        return this;
+        return new hwSuccessPage(ldriver);
     }
 
 }

@@ -41,9 +41,6 @@ public class ContactListLoginPage {
 
 
     }
-
-
-
 }
 
 //Fleunent POM

@@ -22,9 +22,10 @@ public class hwRegisterPageDeploy {
 
         registerPage
                 .enterName("Ziad","alsh")
-                .enterEmail("s@gmail.com")
-                .enterTelePhone("33333")
-                .enterPassword("1234" , "1234")
-                .agreeAndSubmit();
+                .enterEmail("s25522@gmail.com")
+                .enterTelePhone("333233")
+                .enterPassword("12324" , "12324")
+                .agreeAndSubmit();      //here there's we will be on the next page and there will be assert
+
     }
 }
